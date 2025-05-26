@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmad Reza Ravangard | Curriculum Vitae</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', Arial, sans-serif; margin: 0; background: #f4f6f9; color: #222; }
+    header, nav, main, footer { padding: 24px 5vw; }
+    header { background: #fff; display: flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .logo { width: 60px; height: 60px; margin-right: 20px; border-radius: 8px; object-fit: cover; }
+    nav.primary-nav { background: #1a237e; display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+    nav.primary-nav a { color: #fff; text-decoration: none; font-weight: bold; padding: 8px 12px; transition: background 0.2s; }
+    nav.primary-nav a:hover, nav.primary-nav a.active { background: #3949ab; border-radius: 4px; }
+    nav.secondary-nav { background: #3949ab; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; padding: 8px 5vw; }
+    nav.secondary-nav a { color: #fff; text-decoration: none; font-weight: bold; padding: 6px 10px; transition: background 0.2s; }
+    nav.secondary-nav a:hover, nav.secondary-nav a.active { background: #223680; border-radius: 4px; }
+    main { margin: 24px auto; max-width: 1000px; }
+    section { background: #fff; margin: 24px 0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 32px; }
+    h1 { margin: 0; font-size: 2.2rem; color: #1a237e; }
+    h2 { margin-top: 0; color: #1a237e; border-bottom: 2px solid #e0e7ef; padding-bottom: 6px; font-size: 1.5rem; }
+    ul { padding-left: 1.2em; margin: 0 0 12px; }
+    li { margin-bottom: 6px; line-height: 1.4; }
+    @media (max-width: 800px) { header, nav, main, footer { padding: 18px 3vw; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/logo_OS.jpg" alt="OSimulon Logo" class="logo" />
+  <div>
+    <h1>Ahmad Reza Ravangard</h1>
+    <p>PhD Student, Mechanical Engineering<br>Composite Modelling & Manufacturing Group<br>Old Dominion University, Norfolk, VA, USA</p>
+  </div>
+</header>
+
+<nav class="primary-nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="projects.html">Research Projects</a>
+  <a href="cv.html" class="active">Curriculum Vitae</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<nav class="secondary-nav">
+  <a href="#about" class="active">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#publications">Publications</a>
+  <a href="#research-projects">Research Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="about">
+    <h2>Professional Summary</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+      <div style="flex: 1;">
+        <p>Ph.D. student in Mechanical Engineering specializing in Automated Fiber Placement (AFP) and composite manufacturing. I develop multiphysics FEA models for resin flow, compaction, and cure kinetics, validated through DIC, microscopy, and mechanical testing. My work includes progressive failure analysis using open-source tools like COMPDAM and custom 3D Hashin-based models. I also investigate the effects of thermoplastic veils and other materials on improving interlaminar toughness. My goal is to optimize AFP processing and material performance through simulation-driven design and experimental validation.</p>
+      </div>
+      <div style="flex: 0 0 200px;">
+        <img src="images/Ahmad.png" alt="Ahmad Reza Ravangard Photo" style="width:200px; height:200px; object-fit:cover; border:3px solid #1a237e; background:#e0e7ef;">
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming & Scripting:</strong> MATLAB, Python, R, Fortran, C++, Wolfram Mathematica, Git, GitHub, Bash, Linux/Unix</li>
+      <li><strong>Simulation & Design:</strong> Abaqus, ANSYS, CATIA, SOLIDWORKS, Autodesk Inventor, DigiMAT, OpenFOAM, OpenLB, Tecplot, OpenSim, GOM Snap/Correlate, ImageJ, LaTeX</li>
+      <li><strong>Experimental Tools:</strong> MTS systems, Digital Image Correlation (DIC), Dynamic Mechanical Analysis (DMA), Differential Scanning Calorimetry (DSC), Dielectric Analysis (DEA), SEM, Optical Microscopy, Autoclave</li>
+      <li><strong>Expertise:</strong> Multiphysics modeling, Progressive Failure Analysis, Fluid-Structure Interaction, CFD, Composite Process Simulation, AFP Toolpath Optimization</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Ph.D. in Mechanical Engineering</strong> <em>Old Dominion University, Norfolk, VA</em> (Dec 2022 – Dec 2026 expected)</li>
+      <li><strong>M.Sc. in Aerospace Engineering</strong> <em>University of Tehran, Tehran, Iran</em> (Oct 2013 – Feb 2016)</li>
+      <li><strong>B.Sc. in Mechanical Engineering</strong> <em>Islamic Azad University of Neyriz, Iran</em> (Sep 2008 – Jul 2012)</li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li>Ravangard, A., Kravchenko, O. <em>Reducing Out-of-Plane Fiber Waviness in AFP Laminate with Tow Gaps by Selective Placement of Thermoplastic Veils</em>. SAMPE 2025.</li>
+      <li>Ravangard, A., Jamora, V.C., Bhagatji, J.D., Kravchenko, O. <em>Mechanics of Resin-Rich Regions Formation in AFP Preform with Staggered Fiber Tow Gaps</em>. ACM6 2024.</li>
+      <li>Ravangard, A.R., Jamora, V.C., Bhagatji, J.D. <em>Origin and Significance of Non-Uniform Morphology in AFP Composites</em>. ASC 2023.</li>
+      <li>Razmjooei, B., Ravangard, A.R., Momayez, L., Ferchichi, M. <em>The Influence of Heat Transfer Due to Radiation from a Combustion Chamber</em>. Journal of Thermal Analysis and Calorimetry 2021.</li>
+      <li>Ravangard, A.R., Momayez, L., Rashidi, M. <em>Effects of Geometry on Simulation of Two-Phase Flow in Microchannel with Density and Viscosity Contrast</em>. Journal of Thermal Analysis and Calorimetry 2020.</li>
+      <li>Ravangard, A.R., Kamali, R. <em>A Numerical Investigation of Kenics Static Mixer as a Heat Exchanger in Supercritical CO2</em>. Conference on Recent Advances in Aerospace & Associated Sciences 2015.</li>
+    </ul>
+  </section>
+
+  <section id="research-projects">
+    <h2>Research Projects</h2>
+    <ul>
+      <li><strong>AFP Defect Modeling:</strong> Simulated resin-rich regions and tow gap behavior using multiphysics FEA; validated with tensile and DIC data.</li>
+      <li><strong>Resin Flow in Microchannels:</strong> Conducted rheometry to inform predictive models of two-phase flow.</li>
+      <li><strong>Thermoplastic Veils for Waviness Reduction:</strong> Placed PEI/PPS veils in AFP layups; achieved up to 90% waviness reduction.</li>
+      <li><strong>Residual Stress Prediction:</strong> Developed an integrative framework using FBG sensors, DSC, DMA, and thermal simulations.</li>
+      <li><strong>Biomass-Based Graphene in CFRP:</strong> Evaluated mechanical performance and failure behavior of modified composites.</li>
+      <li><strong>Graphene Yield Optimization:</strong> Analyzed pGNP yield using SEM, TGA, and Raman spectroscopy.</li>
+      <li><strong>Financial Time Series Analysis:</strong> Used R to preprocess, calibrate, and model economic datasets.</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Graduate Research Assistant</strong>, ODU Research Foundation (Dec 2022 – Present)</li>
+      <li><strong>Graduate Teaching Assistant</strong>, ODU MAE Dept. (Dec 2022 – Present) — Courses: Solid Mechanics Lab, Statics, CAE Design & Modeling, ComputationalMethods, C++ Programming, Dynamics & Control</li>
+      <li><strong>Graduate Teaching Assistant</strong>, ODU (May 2022 – Aug 2022)</li>
+      <li><strong>Graduate Research Assistant**</strong>, ODU (NSF-Funded) (Dec 2020 – May 2022)</li>
+    </ul>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching Experience</h2>
+    <ul>
+      <li>Solid Mechanics Lab, Statics, CAE Modeling, Computational Methods, C++ Programming, Dynamics & Control (ODU, 2022–2024)</li>
+      <li>Finite Element Methods (University of Kings, unofficial)</li>
+      <li>CFD (University of Shiraz, 2016)</li>
+      <li>Advanced Mathematics (University of Tehran, 2015)</li>
+      <li>Fluid Mechanics, Thermodynamics, Mathematics II (Azad University, 2010–2013)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Address:</strong> 8923 Monitor Way, Norfolk, VA 23503, USA</p>
+    <p><strong>Email:</strong> <a href="mailto:arz.ravangard@gmail.com">arz.ravangard@gmail.com</a></p>
+    <p><strong>Phone:</strong> +1 (757) 632-5976</p>
+    <p>
+      <a href="https://scholar.google.com/citations?user=1DLplMwAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> |
+      <a href="https://www.linkedin.com/in/ahmad-ravangard-16a3ba203" target="_blank" rel="noopener">LinkedIn</a> |
+      <a href="https://osimulon.com" target="_blank" rel="noopener">Website</a> |
+      <a href="https://www.researchgate.net/profile/Ahmad-Ravangard" target="_blank" rel="noopener">ResearchGate</a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Ahmad Reza Ravangard. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
